@@ -510,3 +510,82 @@ System memory in use after: 118.6 MB.
 Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3178.
 Total: 3.909700 ms (FindLiveObjects: 0.276000 ms CreateObjectMapping: 0.066900 ms MarkObjects: 1.960300 ms  DeleteObjects: 1.604300 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 9381.963454 seconds.
+  path: Assets/Art/keys.fbx
+  artifactKey: Guid(5b76d2de5366e4a4081505c887ba0890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/keys.fbx using Guid(5b76d2de5366e4a4081505c887ba0890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e5062418c63e4c6c04d0953bbfab20a') in 0.749606 seconds
+  Import took 0.768220 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001448 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.040 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2643 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.9 MB.
+System memory in use after: 124.2 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3229.
+Total: 3.974000 ms (FindLiveObjects: 0.257500 ms CreateObjectMapping: 0.063700 ms MarkObjects: 2.313700 ms  DeleteObjects: 1.337500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001447 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.988 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2643 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.0 MB.
+System memory in use after: 124.2 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3232.
+Total: 3.896000 ms (FindLiveObjects: 0.267200 ms CreateObjectMapping: 0.065100 ms MarkObjects: 2.074300 ms  DeleteObjects: 1.488100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1081.721796 seconds.
+  path: Assets/Art/coffee table.fbx
+  artifactKey: Guid(84b148cd8d0a2c5428238422d2c6b022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/coffee table.fbx using Guid(84b148cd8d0a2c5428238422d2c6b022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd7ff92bdffce347e7ec127003360e1') in 0.243011 seconds
+  Import took 0.247379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 346.148286 seconds.
+  path: Assets/Art/coffee table.fbx
+  artifactKey: Guid(84b148cd8d0a2c5428238422d2c6b022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/coffee table.fbx using Guid(84b148cd8d0a2c5428238422d2c6b022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac738ce26977d49f7a096b11d03719d9') in 0.053296 seconds
+  Import took 0.057237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 662.316060 seconds.
+  path: Assets/Art/easel.fbx
+  artifactKey: Guid(adff8667ab0d2a54d8efc28796aeea8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/easel.fbx using Guid(adff8667ab0d2a54d8efc28796aeea8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a26ab0811634fdb6ccde58cec8ae432e') in 0.055232 seconds
+  Import took 0.059532 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
