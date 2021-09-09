@@ -10,6 +10,9 @@ public class LookingAt : MonoBehaviour
     public GameObject pointer;
     public Color green;
     public Color white;
+    public Color blue;
+
+    private Transform nextLocation;
 
     void Update()
     {
@@ -20,13 +23,19 @@ public class LookingAt : MonoBehaviour
             {
                 pointer.GetComponent<Image>().color = green;
             }
-            else
+            if (hit.transform.tag == "MoveSpot")
+            {
+                pointer.GetComponent<Image>().color = blue;
+                if(Input.GetButtonDown("Fire1"))
+                {
+                    //Debug.Log("move");
+                    nextLocation = hit.transform.GetChild(0);
+                    transform.position = nextLocation.position;
+                }
+            }
+            if (hit.transform.tag != "MoveSpot" && hit.transform.tag != "Painting")
             {
                 pointer.GetComponent<Image>().color = white;
-            }
-            if (Input.GetButtonDown("Fire1"))
-            {
-                Debug.Log(hit.transform.name);
             }
         }
     }
